@@ -21,4 +21,6 @@
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__item-accent/intro__item-accent.css);
 @import url(../blocks/intro/__item-accent/intro__item-accent.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
 
