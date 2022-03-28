@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 1024px) {
+    .lead__poster {
+      max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__poster {
+      max-width: 768px;
+    }
+}
+
+@media (max-width: 425px) {
+    .lead__poster {
+      max-width: 425px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__poster {
+      max-width: 320px;
+    }
+}
+
