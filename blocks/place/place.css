@@ -1,0 +1,10 @@
+.place {
+    display: grid;
+    grid-template-columns: 1fr minmax(220px, 1fr);
+    padding-bottom: 80px;
+    gap: 48px 40px;
+}
+
+.place:last-child {
+    padding: 0;
+}

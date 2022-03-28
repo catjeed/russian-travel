@@ -1,0 +1,16 @@
+.cover__link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(42, 44, 47, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 740px;
+    transition: 0.4s;
+}   
+
+.cover__link:hover {
+   background: rgba(42, 44, 47, 0.8);
+}
