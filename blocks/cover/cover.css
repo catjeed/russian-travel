@@ -5,6 +5,30 @@
     background-image: url(../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    max-height: 740px;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+        max-height: 640px;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+        max-height: 480px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        min-width: 320px;
+        min-height: 200px;
+    }
+    
 }
