@@ -26,7 +26,12 @@
     .gallery {
         grid-template-columns: repeat(1, 1fr);
         min-width: 288px;
-        column-gap: 12px;
-        margin: 0 16px 0;
+        margin: 0 16px 82px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .gallery {
+        margin-bottom: 64px;
     }
 }
