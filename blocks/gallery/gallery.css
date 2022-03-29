@@ -9,7 +9,7 @@
 @media screen and (max-width: 1279px){
     .gallery {
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 14px;
+        gap: 14px;
         max-width: 928px;
     }
 }
@@ -17,7 +17,7 @@
 @media screen and (max-width: 1023px){
     .gallery {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 16px;
+        gap: 16px;
         max-width: 720px;
     }
 }
@@ -26,5 +26,7 @@
     .gallery {
         grid-template-columns: repeat(1, 1fr);
         min-width: 288px;
+        column-gap: 12px;
+        margin: 0 16px 0;
     }
 }
